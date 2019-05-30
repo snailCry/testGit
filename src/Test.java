@@ -11,6 +11,7 @@ public class Test implements Runnable {
         return super.hashCode();
     }
 
+
     public static void main(String[] args) {
         ArrayList<String> testList = new ArrayList<String>();
         testList.add("ssxxxxxxxs");
@@ -27,7 +28,9 @@ public class Test implements Runnable {
 
     private static void aaa() {
         String A = TEST;
-                
+
+
+
         GregorianCalendar gregorianCalendar = new GregorianCalendar(Calendar.DAY_OF_YEAR, Calendar.MONTH, Calendar.DAY_OF_MONTH);
         Calendar now = gregorianCalendar;
         String aaaa = new String("aaaa ");
